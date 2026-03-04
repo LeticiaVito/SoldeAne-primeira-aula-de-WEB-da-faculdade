@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0 40px 0;
+}
+
+.logo{
+    width: 10%;
+    margin-left: 5%;
+}
+
+nav{
+    color: #000000;
+    top: 10%;
+    right: 4%;
+    position: absolute;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav li{
+    display: inline;
+    margin-right: 40px;
+}
+
+.divHeader{
+    position: relative;
+}
+
+.banner{
+  width: 100%;
+  height: 550px;
+image-rendering: auto;
+
+}
+/*estilização do sobre nós*/
+.sobre_nos{
+    width: 60%;
+    margin-left: 20%;
+    text-align: justify;
+    font-size: 20px;
+}
+.img_sobre_nos{
+    width: 15%;
+    float: left;
+    margin-right: 20px;
+}
+.titulo_sobre_nos{
+    clear: left;
+    text-align: center;
+}
