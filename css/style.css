@@ -37,6 +37,9 @@ nav li{
 image-rendering: auto;
 
 }
+.titulos{
+    text-align: center;
+}
 /*estilização do sobre nós*/
 .sobre_nos{
     width: 60%;
@@ -52,4 +55,65 @@ image-rendering: auto;
 .titulo_sobre_nos{
     clear: left;
     text-align: center;
+}
+
+.mapa{
+text-align: center;
+
+}
+
+.img_nossos_produtos{
+    width: 11%;
+    float: right;
+    margin-right: 590px;
+    /* horizontal | vertical | blur (desfoque) | cor */
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.856);
+   border-radius: 10px;
+   opacity: 1;
+   transition: 400ms;
+}
+
+.img_nossos_produtos:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.letras{
+    font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+}
+
+.tayday{
+background: linear-gradient(#ffffff, #f3ebe3);
+}
+
+.video{
+     display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente (opcional) */
+    width: 100%; 
+ 
+}
+footer{
+    padding: 210px 10px 10px 0px;
+    background: url("../img/FUNDOBANNER.webp");
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(24, 24, 24, 0.856);
+    background-blend-mode: darken;
+   
+}
+
+.footer_p{
+   color: #ffffff;
+   text-align: right;
+}
+
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo_footer{
+    width: 15%;
+    padding-left: 85%;
+
 }
