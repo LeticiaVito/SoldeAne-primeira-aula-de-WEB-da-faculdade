@@ -149,8 +149,8 @@ background: linear-gradient(#ffffff, #f3ebe3);
 
 .video{
      display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;     /* Centraliza verticalmente (opcional) */
+    justify-content: center; 
+    align-items: center;     
     width: 100%; 
  
 }
@@ -202,7 +202,7 @@ footer a{
     color: white !important;
 }
 
-/* HERO */
+
 .hero {
     padding: 100px 0;
 }
@@ -253,7 +253,7 @@ footer a{
     box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 }
 
-/* PRODUTOS */
+
 .produtos {
     padding: 80px 0;
     text-align: center;
